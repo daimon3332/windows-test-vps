@@ -1,0 +1,52 @@
+# Plans / local docs
+plan.md
+
+# Local config
+config.yaml
+config.yml
+.env
+.env.*
+!.env.example
+
+# Runtime / data
+data/
+Results/
+*.log
+logs/
+
+# Cache / temp
+__pycache__/
+*.pyc
+.cache/
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Build artifacts
+dist/
+build/
+out/
+*.egg-info/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Secrets / credentials
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+id_rsa
+id_rsa.pub
